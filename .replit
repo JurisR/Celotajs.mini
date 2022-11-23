@@ -36,6 +36,12 @@ REPLIT_POETRY_PYPI_REPOSITORY="https://package-proxy.replit.com/pypi/"
 MPLBACKEND="TkAgg"
 POETRY_CACHE_DIR="${HOME}/${REPL_SLUG}/.cache/pypoetry"
 
+#datbase connection
+DB_NAME="dnldoeme"
+DB_HOST="mouse.db.elephantsql.com"
+DB_PASSWORD="4mbcGPXpLPBRlLdaArCJpfAGjvWeeJVI"
+
+
 # Enable unit tests. This is only supported for a few languages.
 [unitTest]
 language = "python3"
