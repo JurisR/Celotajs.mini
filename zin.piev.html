@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="{{url_for('static', filename='funkcijas.js')}}"> 
+  </script>
+    
+</head>
+<body>
+  <label for="lietotaji">Izveleties lietotaju:</label>
+  <select name="lietotaji" id="selectElements"> 
+      
+  </select> 
+  <br></br>
+  <label for="zinojums">Ziņa:</label>
+  <input type = text id="zinojums"></input>
+  <button onclick="read2()">Pievienot</button>
+ 
+  
+  <br></br>
+  <a href="/"><button>Reģistrēties</button></a>
+  <a href="/skatit"><button>Ziņojumi</button></a>
+  <script>
+    get_user()
+  </script>
+
+</body>
+</html>
